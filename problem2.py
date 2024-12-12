@@ -17,3 +17,14 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+x = int(input("enter an integer => "))
+
+y = x * 13
+z = x
+
+while z != y:
+    print(z , end = '')
+    print(" " , end = '')
+    z = z + x
+    

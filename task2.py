@@ -29,3 +29,14 @@ Access granted
 
 
 """
+
+skibidi = ""
+toilet = ""
+
+while skibidi != "admin" and toilet != "12345":
+    skibidi = input("what is your name=> ")
+    toilet = input("what is your password=> ")
+    if skibidi != "admin" and toilet != "12345":
+        print("incorrect answer, please try again")
+
+print("correct answer, access granted")

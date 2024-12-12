@@ -25,3 +25,11 @@ Example:
 10
 ...
 """
+
+x = int(0)
+
+while x != 20:
+    print(f"{x}")
+    x = x + 2
+
+print("20")
